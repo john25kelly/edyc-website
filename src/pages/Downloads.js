@@ -110,8 +110,7 @@ const documents = [
   {
     id: "leisure-17-big-weekend-2025-sis-v7",
     title: "Leisure 17 — Big Weekend 2025 Sailing Instructions (v7)",
-    description:
-      "Official Sailing Instructions for the Leisure 17 Big Weekend 2025. Contains start times, courses, safety notes and race procedures. (PDF)",
+    description: "Official Sailing Instructions for the Leisure 17 Big Weekend 2025. Contains start times, courses, safety notes and race procedures. (PDF)",
     href: "/docs/Leisure-17-Big-Weekend-2025-SIs-v7.pdf",
     filename: "Leisure-17-Big-Weekend-2025-SIs-v7.pdf",
     type: "PDF",
