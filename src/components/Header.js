@@ -91,6 +91,7 @@ function Header() {
         <StyledLink to="/events">Events</StyledLink>
         <StyledLink to="/gallery">Gallery</StyledLink>
         <StyledLink to="/history">History</StyledLink>
+        <StyledLink to="/downloads">Downloads</StyledLink>
         <StyledLink to="/contact">Contact</StyledLink>
       </DesktopLinks>
 
@@ -104,6 +105,7 @@ function Header() {
         <StyledLink to="/events" onClick={() => setOpen(false)}>Events</StyledLink>
         <StyledLink to="/gallery" onClick={() => setOpen(false)}>Gallery</StyledLink>
         <StyledLink to="/history" onClick={() => setOpen(false)}>History</StyledLink>
+        <StyledLink to="/downloads" onClick={() => setOpen(false)}>Downloads</StyledLink>
         <StyledLink to="/contact" onClick={() => setOpen(false)}>Contact</StyledLink>
       </NavLinks>
     </Nav>

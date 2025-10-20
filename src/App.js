@@ -7,6 +7,7 @@ import Events from "./pages/Events";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import History from "./pages/History";
+import Downloads from "./pages/Downloads";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/history" element={<History />} />
+          <Route path="/downloads" element={<Downloads />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
