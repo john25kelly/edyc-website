@@ -1,0 +1,92 @@
+/*
+ Theme Name:     EDYC Child Theme
+ Theme URI:      http://glazedigital.com
+ Description:    EDYC Website by Glaze Digital Child Theme
+ Author:         Glaze Digital
+ Author URI:     http://glazedigital.com
+ Template:       edyc
+ Version:        1.0
+*/
+
+@import url(../edyc/style.css);
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+.post-list-item .thumbnail, .post-list-item .img-thumbnail{
+ contain-intrinsic-size:300px !important;
+}
+
+.upcoming-events .event-date{
+opacity:1 !important;
+}
+
+.top-menu a{
+text-decoration:none;
+}
+
+.upcoming-events .event-date .day{
+color:#fff !important;
+}
+
+.upcoming-events .event-date .monthyear{
+color:#fff !important;
+}
+
+.main-navigation > ul > li > a{
+text-decoration:none !important;
+}
+
+a{
+text-decoration:underline;
+}
+
+.page-header{
+background:#ccc;
+}
+
+.wpcf7-submit{
+background:#000;
+padding:15px 81px !important;
+}
+
+.top-header {
+    position: relative;
+    z-index: 2;
+    background-color: #843e5b;
+    height: 37px;
+}
+
+.main-navigation > ul > li > ul li > a{
+   color:#555555;
+}
+
+.upcoming-events .event-date .day{
+	color:#000;
+}
+
+.upcoming-events .event-date .monthyear{
+	color:#000;
+}
+
+.main-navigation > ul > li ul{
+background:#f3f3f3 !important;
+}
+
+.page-header{
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	  
+	  .page-header{
+		  display:none;
+	  }
+
+	  .site-header{
+		  display:none;
+	  }
+}
